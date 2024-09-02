@@ -1,0 +1,18 @@
+#me {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.flex-item-stretch-6 {
+  flex: 1 auto;
+}
+
+.max-width-600 {
+  max-width: 900px;
+}
+
+@media screen and (min-width: 1000px) {
+  .flex-item-stretch-6 {
+    flex: 5.5;
+  }
+}
